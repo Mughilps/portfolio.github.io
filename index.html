@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUGHILVANNAN PORTFOLIO</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/d8ee784d05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./image/resume.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+    
+            <div class="header-text">
+                <h1>Hi,I'm <span>MUGHILVANNAN P S</span><BR></h1>
+                <div class="text_animation">
+                    <p>Front end developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------about me-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./image/mughil.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="about-me-content">
+                    Enthusiastic Engineering Graduate with adequate knowledge in coding and designing. Proficiency in  HTML,CSS, JavaScript and React. With my Front End  Development course expertise, I am confident that I can apply these skills to a  Developer Role, and would like the opportunity to work with more complex codebases. 
+                    </p>
+
+                    <div class="tag-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li ><span><strong>HTML</strong></span><br></li>
+                            <div class="skill"><div class="bar bar1"></div></div>
+                            <li ><span><strong>CSS</strong></span><br> </li>
+                            <div class="skill"><div class="bar bar2"></div></div>
+                            <li  ><span><strong>Javascript</strong></span><br></li>
+                            <div class="skill"><div class="bar bar3"></div></div>
+                            <li ><span><strong>React js</strong></span><br></li>
+                            <div class="skill"><div class="bar bar4"></div></div>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>COGNIZANT TECHNOLOGY SOLUTIONS </span><br><br>Programmer Analyst Trainee   <br>23rd JULY 2022 - 25th JAN 2023</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Front end developer course</span><br>Besant technologies, Chennai - 2023</li>
+                            <li><span>B.E Automobile Engineering ---> 7.2cgpa</span><br> kumaraguru college of technology - coimbatore 2019</li>
+                            <li><span>12th --> 90%</span><br>Sri Vidhya Mandir Mat.Hr.Sec school  - Uthangarai 2015</li>
+                            <li><span>10th --> 95%</span><br>Sri Vidhya Mandir Mat.Hr.Sec school  - Uthangarai 2013</li>
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+ <!-- -------services------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front End Development</h2>
+                <p>creating front end website using HTML, CSS, javascript</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UX designing</h2>
+                <p>Designing websites using CSS  </p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>website creation</h2>
+                <p>Creating websites using REACT. </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./image/work-1.png" >
+                <div class="layer">
+                    <h3>Weather Forecast Website</h3>
+                    <p>A responsive Weather web app which automatically loads weather status based on user input location using real-time API.Built using HTML, CSS & javasript</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./image/work-2.png">
+                <div class="layer">
+                    <h3>E-commerce website</h3>
+                    <p>This is a simple e-commerce website created using React.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./image/work-3.png">
+                <div class="layer">
+                    <h3>Digital Clock</h3>
+                    <p>Simple Digital clock website build using HTML,CSS and javascript</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------contact me ----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> psmughil@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9500388878</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="image/mughil_resume.pdf" download class="btn btn2">Download cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message"  rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Mughilvannan.</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove('active-link');
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove('active-tab');
+    }
+    event.currentTarget.classList.add('active-link');
+    document.getElementById(tabname).classList.add('active-tab');
+}
+    
+</script> 
+<script>
+    var sidemenu = document.getElementById('sidemenu');
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>  
+</body>
+</html>
